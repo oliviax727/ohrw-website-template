@@ -28,7 +28,7 @@ If you are using VS Code as your preferred IDE, you can install the ESLint exten
 ### Project Structure
 
 For the directories and files listed in code blocks below:
-<table>
+<table style="font-weight: normal;">
     <tr>
         <th>Symbol</th>
         <th>Reccomended Treatment (Directories)</th>
