@@ -1,0 +1,9 @@
+{
+	"eslint.useWorkspaceDependencies": true,
+	"eslint.workingDirectories": [
+		{ "mode": "auto" }
+	],
+	"eslint.options": {
+		"overrideConfigFile": "eslint.config.ts"
+	}
+}
