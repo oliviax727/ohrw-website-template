@@ -28,38 +28,13 @@ If you are using VS Code as your preferred IDE, you can install the ESLint exten
 ### Project Structure
 
 For the directories and files listed in code blocks below:
-<table style="font-weight: normal;">
-    <tr>
-        <th>Symbol</th>
-        <th>Reccomended Treatment (Directories)</th>
-        <th>Reccomended Treatment  (Files)</th>
-    </tr>
-    <tr>
-        <th>🟢</th>
-        <th>Modify and Customise</th>
-        <th>"</th>
-    </tr>
-    <tr>
-        <th>⚪️</th>
-        <th>No reccomended or encouraged actions</th>
-        <th>"</th>
-    </tr>
-    <tr>
-        <th>🟡</th>
-        <th>Add and edit new custom files to directory</th>
-        <th>Avoid modifying unless you want additional customisation</th>
-    </tr>
-    <tr>
-        <th>🟠</th>
-        <th>Avoid modifying or adding to unless neccesary</th>
-        <th>"</th>
-    </tr>
-    <tr>
-        <th>🔴</th>
-        <th>Avoid modification or addition whatsoever</th>
-        <th>"</th>
-    </tr>
-</table>
+| Symbol | Reccomended Treatment (Directories) | Reccomended Treatment  (Files) |
+|--|--|--|
+| 🔵 | Modify and Customise |"|
+| 🟢 | No reccomended or encouraged actions | " |
+| 🟡 | Add and edit new custom files to directory | Avoid modifying unless you want additional customisation|
+| 🟠 | Avoid modifying or adding to unless neccesary| " |
+| 🔴 | Avoid modification or addition whatsoever | " |
 
 #### Directories
 
@@ -67,13 +42,13 @@ The directory structure looks given as below — in brackets next to each direct
 
 ```
 .
-└── src ⚪️
+└── src 🟢
     ├── css (CSS style files) 🟡
-    ├── data (XML and JSON data) ⚪️
-    ├── html (HTML files corresponding to section contents) 🟢
-    ├── img ⚪️
-    │   ├── assets (General images) 🟢
-    │   ├── favicons (Icons used in the page title) 🟢
+    ├── data (XML and JSON data) 🟢
+    ├── html (HTML files corresponding to section contents) 🔵
+    ├── img 🟢
+    │   ├── assets (General images) 🔵
+    │   ├── favicons (Icons used in the page title) 🔵
     │   └── icons (Button icons) 🟡
     ├── layout (Generic, template, and special-use HTML files) 🟡
     └── scripts (Program scripts) 🟡
@@ -81,7 +56,7 @@ The directory structure looks given as below — in brackets next to each direct
         ├── cmd (Bash scripts for automation) 🟡
         ├── dist (Output of typescript compiler) 🔴
         ├── lib (Javascript client-side modules) 🟡
-        ├── ts (Typescript node.js modules) 🟢
+        ├── ts (Typescript node.js modules) 🔵
         └── types (Typescript type declarations) 🔴
 ```
 
@@ -97,14 +72,14 @@ Below is the list of top-level files — in brackets next to each file is an exp
 ├── bundle.js (Node.js module entry point) 🔴
 ├── eslint.config.ts (ESLint linting rules) 🟡
 ├── index.html (HTML entry point) 🟠
-├── index.js (Client-side module entry point) 🟢
+├── index.js (Client-side module entry point) 🔵
 ├── LICENSE 🔴
 ├── node_modules 🔴
-├── notes.txt (Personal Notes) 🟢
+├── notes.txt (Personal Notes) 🔵
 ├── package-lock.json 🔴
-├── package.json 🟢
-├── README.md 🟢
-├── robots.txt (Communicate with web scrapers) ⚪️
+├── package.json 🔵
+├── README.md 🔵
+├── robots.txt (Communicate with web scrapers) 🟢
 ├── style.css (Main styling configuration) 🟠
 └── tsconfig.json (Typescript compilation settings) 🟠
 ```
