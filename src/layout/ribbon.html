@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+
+<head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="src/css/ribbon.css">
+</head>
+
+<body>
+  <a onclick="Navigator.toggleMenu(true);" class="ribbon ribbon-crunch icon-button">
+    <img src="src/img/icons/menu.png">
+  </a>
+
+  <div class="ribbon ribbon-main ribbon-crunch" id="name">OHRW's Template Website</div>
+
+  <div class="ribbon ribbon-main" id="navbar">
+    <a onclick="Navigator.goToSection('home');">Home</a>
+
+    <div hidden class="dropdown" id="drop-wrapper-example">
+      <div hidden class="dropdown-content" id="drop-example">
+        <a onclick="Navigator.goToSection('example-1');">Example 1</a>
+        <a onclick="Navigator.goToSection('example-2');">Example 2</a>
+      </div>
+    </div>
+
+    <a class="dropbtn" onclick="Navigator.showSubList('example');" onmouseleave="Navigator.hideSubList('example');">Examples</a>
+  </div>
+
+  <div class="ribbon ribbon-main sectionname">Home</div>
+
+</body>

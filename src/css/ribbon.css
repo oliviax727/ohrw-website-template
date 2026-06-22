@@ -1,0 +1,81 @@
+/* Ribbon Div */
+
+#name {
+  font-weight: bold;
+  width: 22%;
+  min-width: max-content;
+}
+
+#navbar {
+  width: 55%;
+}
+
+.ribbon-crunch {
+  display: none;
+  width: 50%;
+}
+
+.ribbon-main {
+  display: inline-block;
+}
+
+.ribbon {
+  padding: 1%;
+  vertical-align: middle;
+}
+
+.ribbon a {
+  display: inline;
+  width: max-content;
+  padding: 2%;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.ribbon a:hover {
+  background-color: var(--mid-gray);
+}
+
+.dropdown {
+  display: inline-flex;
+  overflow: hidden;
+  width: fit-content;
+}
+
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  background-color: var(--dark-gray);
+  border: solid;
+  border-color: white;
+  border-radius: 1px;
+  width: fit-content;
+  padding: 1%;
+  padding-right: 2%;
+  z-index: 4;
+}
+
+.dropdown-content a {
+  float: none;
+  width: 110%;
+  padding: 3%;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: var(--mid-gray);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+#name {
+  width: 22%;
+}
+
+#main-ribbon {
+  width: 55%;
+}

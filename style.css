@@ -1,0 +1,199 @@
+/* Import Open Sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,700&display=swap');
+
+/* Root colour variables */
+
+:root {
+  /* Base Colour */
+  --base-hue: 300;
+
+  /* High-Saturation Colours */
+  --vibrant-dark-color:  hsl(var(--base-hue), 100%, 25%);
+  --vibrant-light-color: hsl(var(--base-hue), 100%, 50%);
+  --vibrant-wash-color:  hsl(var(--base-hue), 100%, 75%);
+
+  /* Moderate-Saturation Colours */
+  --mid-dark-color:  hsl(var(--base-hue), 50%, 25%);
+  --mid-light-color: hsl(var(--base-hue), 50%, 50%);
+  --mid-wash-color:  hsl(var(--base-hue), 50%, 75%);
+
+  /* Low Saturation Colours */
+  --pale-dark-color:  hsl(var(--base-hue), 25%, 25%);
+  --pale-light-color: hsl(var(--base-hue), 25%, 50%);
+  --pale-wash-color:  hsl(var(--base-hue), 25%, 75%);
+
+  /* Greyscale */
+  --dark-gray:   #444;
+  --mid-gray:    #666;
+  --light-gray:  #DDD;
+}
+
+/* Main Setup */
+
+body {
+  background-color: black;
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  color: white;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  position: relative;
+  user-select: 'text'
+}
+
+/* Da Linkys */
+
+a:link {
+  color: var(--mid-light-color);
+}
+
+a:visited {
+  color: var(--mid-dark-color);
+}
+
+a:active {
+  color: var(--mid-wash-color);
+}
+
+button {
+  background-color: var(--dark-gray);
+  border: solid;
+  border-color: white;
+  border-width: 3px;
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+button:active {
+  background-color: black;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+td,
+th {
+  width: max-content;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: left;
+}
+
+.icon-button {
+  vertical-align: middle;
+  width: max-content;
+  padding: clamp(4px, 1%, 8px);
+}
+
+.icon-button img {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  object-fit: cover;
+
+  display: inline;
+  width: max-content;
+  font-weight: normal;
+  text-decoration: none;
+  color: white;
+}
+
+.icon-button:hover {
+  background-color: var(--dark-gray);
+}
+
+.sectionname {
+  font-weight: bold;
+  width: 22%;
+  min-width: 22%;
+  text-align: right;
+  display: block;
+  width: auto;
+  float: right;
+  justify-content: right;
+  text-align: right;
+  padding: 1%;
+}
+
+/* Wrappers */
+
+#ribbon-wrapper {
+  position: sticky;
+  top: 0;
+  color: white;
+  height: 11%;
+  max-height: 11%;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+  width: 100%;
+  min-width: 100%;
+  vertical-align: middle;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: row;
+
+  z-index: 3;
+
+  background-color: var(--vibrant-dark-color);
+}
+
+#menu-wrapper {
+  position: sticky;
+  top: 0;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  min-width: 100%;
+  z-index: 4;
+  text-align: left;
+}
+
+#rss-feed-wrapper {
+  overflow-y: scroll;
+  
+  background-color: var(--pale-wash-color);
+
+  max-height: max-content;
+  height: 90vh;
+  width: 100%;
+  min-width: 100%;
+
+  border: solid;
+  border-color: white;
+  border-width: 3px;
+  text-align: left;
+
+  display: flex;
+}
+
+/* Flex divs */
+
+.flexdiv {
+  display: -webkit-flex;
+  display: flex;
+  min-height: 100%;
+  flex-direction: row;
+  align-items: stretch;
+  z-index: 1;
+}
+
+.flexdiv img {
+  object-fit: scale-down;
+  width: 100%;
+  height: auto;
+}
+
+.flexdiv object {
+  object-fit: scale-down;
+  width: 100%;
+  height: 600px;
+}

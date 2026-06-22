@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="src/css/menu.css">
+</head>
+
+<body>
+    <div id="sidebar-ribbon" onmouseleave="Navigator.toggleMenu(false);">
+        <div class="menu" id="sectionname-menu-wrapper">
+            <span>Section - </span>
+            <span class="sectionname"></span>
+        </div>
+
+        <div class="menu" id="navbar-menu">
+            <a onclick="Navigator.goToSection('home');">Home</a>
+
+            <span>Examples</span>
+            <div class="sublist" id="example-sublist">
+                <a onclick="Navigator.goToSection('example-1');">Example</a>
+                <a onclick="Navigator.goToSection('example-2');">Example 2</a>
+            </div>
+        </div>
+    </div>
+    <div id="decolourbox" onclick="Navigator.toggleMenu(false);" onmouseenter="Navigator.toggleMenu(false);"></div>
+
+</body>
