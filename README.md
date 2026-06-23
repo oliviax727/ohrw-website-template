@@ -25,152 +25,17 @@ If you are using VS Code as your preferred IDE, you can install the ESLint exten
 ./src/scripts/cmd/compile-app.sh
 ```
 
-### Project Structure
+### Documentation
 
-For the directories and files listed in code blocks below:
-| Symbol | Reccomended Treatment (Directories) | Reccomended Treatment  (Files) |
-|--|--|--|
-| 🔵 | Modify and Customise |"|
-| 🟢 | No reccomended or encouraged actions | " |
-| 🟡 | Add and edit new custom files to directory | Avoid modifying unless you want additional customisation|
-| 🟠 | Avoid modifying or adding to unless neccesary| " |
-| 🔴 | Avoid modification or addition whatsoever | " |
+This repository's documentation can be found in the markdown files in the [docs](src/docs) folder. You can also go to the website https://oliviax727.github.io/ohrw-website-template/ to see the documentation in a more stylised format.
 
-#### Directories
-
-The directory structure looks given as below — in brackets next to each directory is an explanation of what that directory is for.
-
-```
-.
-└── src 🟢
-    ├── css (CSS style files) 🟡
-    ├── data (XML and JSON data) 🟢
-    ├── html (HTML files corresponding to section contents) 🔵
-    ├── img 🟢
-    │   ├── assets (General images) 🔵
-    │   ├── favicons (Icons used in the page title) 🔵
-    │   └── icons (Button icons) 🟡
-    ├── layout (Generic, template, and special-use HTML files) 🟡
-    └── scripts (Program scripts) 🟡
-        ├── app (Compiled Javascript node.js modules) 🔴
-        ├── cmd (Bash scripts for automation) 🟡
-        ├── dist (Output of typescript compiler) 🔴
-        ├── lib (Javascript client-side modules) 🟡
-        ├── ts (Typescript node.js modules) 🔵
-        └── types (Typescript type declarations) 🔴
-```
-
-#### Files
-
-Below is the list of top-level files — in brackets next to each file is an explanation of what that file is for.
-
-```
-.
-├── _config.yml (Github Pages YAML configuration) 🟡
-├── 404.html (404 Page) 🟠
-├── babel.config.json (Babelify configuration) 🟠
-├── bundle.js (Node.js module entry point) 🔴
-├── eslint.config.ts (ESLint linting rules) 🟡
-├── index.html (HTML entry point) 🟠
-├── index.js (Client-side module entry point) 🔵
-├── LICENSE 🔴
-├── node_modules 🔴
-├── notes.txt (Personal Notes) 🔵
-├── package-lock.json 🔴
-├── package.json 🔵
-├── README.md 🔵
-├── robots.txt (Communicate with web scrapers) 🟢
-├── style.css (Main styling configuration) 🟠
-└── tsconfig.json (Typescript compilation settings) 🟠
-```
-
-### Features
-
-This section is a work in progress.
-
-#### HTML Loading
-
-- IncludeHTML/ReadHTML
-- LoadPage, initPage
-- onload
-
-#### Page Navigation
-
-- Change Section
-- goToSection
-- Ribbon customisation
-- Menu customisation
-
-#### Styling
-
-- Section colours
-- Basic Style info
-
-#### Content
-
-- Content inclusions
-
-#### Section Naming
-
-- Current section
-- Naming section contents
-- Current section tag
-
-#### Ages and Dates
-
-- Age and date tags
-
-#### Mobile Compatibility
-
-- Crunch events
-
-#### Markdown Embedding
-
-- zero-md element
-
-#### Footer Minigame
-
-- Current section
-
-#### Cookies and JQuery
-
-- Helper functions
-
-#### RSS Feeds
-
-- Everything RSS
-
-### Development
-
-This section is a work in progress.
-
-#### Frontend Modules
-
-- lib file and index.js
-
-#### Backend Structure
-
-- Modules, execution points, index.ts, and entry points
-- Why functional, why typescript, why ESNext
-- Bundling and CommonJS in entry.js
-
-#### Configuring the Backend
-
-- ESLint
-- TSConfig
-- npm packages
-
-#### Command-Line Interface
-
-- Creating bash commands
-- Existing two files
-
-#### Miscellaneous
-
-- Config.yml
-- Jekyll pages
-- Documents and Images
-- Robots
+Each section describes a different aspect of the codebase:
+| Full Name | Name | Markdown Ref. | Website URL |
+|--|--|--|--|
+| Beginner's Guide | Guide | [src/doc/guide.md](src/doc/guide.md) | [https://oliviax727.github.io/ohrw-website-template/?s=guide](https://oliviax727.github.io/ohrw-website-template/?s=guide)
+| Project Structure | Structure | [src/doc/structure.md](src/doc/structure.md) | [https://oliviax727.github.io/ohrw-website-template/?s=documentation-structure](https://oliviax727.github.io/ohrw-website-template/?s=documentation-structure)
+| UI Features | Features | [src/doc/features.md](src/doc/features.md) | [https://oliviax727.github.io/ohrw-website-template/?s=documentation-features](https://oliviax727.github.io/ohrw-website-template/?s=gdocumentation-features)
+| Code Development | Development | [src/doc/development.md](src/doc/development.md) | [https://oliviax727.github.io/ohrw-website-template/?s=documentation-development](https://oliviax727.github.io/ohrw-website-template/?s=documentation-development)
 
 ### Attributions
 

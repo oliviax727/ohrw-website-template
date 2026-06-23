@@ -15,14 +15,18 @@
   <div class="ribbon ribbon-main" id="navbar">
     <a onclick="Navigator.goToSection('home');">Home</a>
 
-    <div hidden class="dropdown" id="drop-wrapper-example">
-      <div hidden class="dropdown-content" id="drop-example">
-        <a onclick="Navigator.goToSection('example-1');">Example 1</a>
-        <a onclick="Navigator.goToSection('example-2');">Example 2</a>
+    <a onclick="Navigator.goToSection('guide');">Guide</a>
+
+    <div hidden class="dropdown" id="drop-wrapper-docs">
+      <div hidden class="dropdown-content" id="drop-docs">
+        <a onclick="Navigator.goToSection('docs-structure');">Structure</a>
+        <a onclick="Navigator.goToSection('docs-features');">Features</a>
+        <a onclick="Navigator.goToSection('docs-development');">Development</a>
       </div>
     </div>
 
-    <a class="dropbtn" onclick="Navigator.showSubList('example');" onmouseleave="Navigator.hideSubList('example');">Examples</a>
+    <a class="dropbtn" onclick="Navigator.showSubList('docs');"
+      onmouseleave="Navigator.hideSubList('docs');">Documentation</a>
   </div>
 
   <div class="ribbon ribbon-main sectionname">Home</div>
