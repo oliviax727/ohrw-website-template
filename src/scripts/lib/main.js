@@ -178,15 +178,15 @@ export class Navigator {
 export class Cruncher {
     // ===== CRUNCH EVENT HANDLING ===== //
 
-    static crunchEvent = new Event("oncrunch");
-    static relaxEvent = new Event("onrelax");
+    static oncrunch = new Event("oncrunch");
+    static onrelax = new Event("onrelax");
 
     // Check if the crunch events have been activates
     static checkCrunch() {
         if (window.innerWidth < self.PageData.CRUNCH_SIZE) {
-            document.dispatchEvent(Cruncher.crunchEvent);
+            document.dispatchEvent(Cruncher.oncrunch);
         } else {
-            document.dispatchEvent(Cruncher.relaxEvent);
+            document.dispatchEvent(Cruncher.onrelax);
         }
     }
 

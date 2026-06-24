@@ -111,20 +111,47 @@ Below is a list of custom classes that will allow for span elements to update dy
 
 ### Mobile Compatibility
 
-- Crunch events
+The website is designed to be compatible with mobile devices. The main functionality being found with the `Cruncher` class. The class defines two events: `Cruncher.oncrunch` and `Cruncher.onrelax`. Additionally, `index.js` assigns the events to the window, as well as what to do when the even is triggered.
+
+These two events are triggered when the window is resized to a width above (`onrelax`) or below (`oncrunch`) a constant `DEFAULT_CRUNCH_SIZE` set in `index.js`.
+
+The default behaviour, as defined by the `Cruncher` class, is such that any element with the attribute `hide-oncrunch` will disappear on smaller screens and re-appear on larger screens, and vice versa for the `hide-onrelax` attribute.
 
 ### Markdown Embedding
 
-- zero-md element
+Thanks to [<zero-md>](https://zerodevx.github.io/zero-md/), embedding markdown in HTML is very simple and is used throughout this website.
+
+Please see the above link for more information on how to embed markdown.
 
 ### Footer Minigame
 
-- Current section
+In the footer for the website there is a small idle/clicker game. There is a separate file designed to handle the game's functionality. Feel free to expand on the game or use it as an example of custom functionality.
 
 ### Cookies and JQuery
 
-- Helper functions
+The `Storer` class packages functionality for storing user data related to the webpage that stays after reloading. This comes in the form of both URL search parameter storage and cookie storage.
 
 ### RSS Feeds
 
-- Everything RSS
+<b style="color: red;">WARNING</b>**:** The RSS feeds are still a work in progress. This section may be subject to change based on how the end product works.
+
+For how to use the feed with an end-user perspective, see the [README](https://github.com/oliviax727/RSS-ohrw/blob/main/README.md#how-to-use-the-newsreader) for the RSS feed repository.
+
+To set up the RSS feed, first add a new entry to `src/data/newsreader.json`:
+
+```json
+"RSS feed name" : {
+    "News site name": "Link to RSS feed",
+    //... add as many entries as you would like
+}
+```
+
+Then, in the HTML end simply requires adding the following element:
+
+```html
+<div id="rss-feed-wrapper" data-xml-id="">
+    <div html-ref="src/layout/rss-feed.html"></div>
+</div>
+```
+
+And then set the `data-xml-id` parameter to the name of the RSS feed. From there, the RSS feed should display a combined list of articles from the various RSS feeds you specified in `src/data/newsreader.json`. This list is ordered according to the date of publication.
