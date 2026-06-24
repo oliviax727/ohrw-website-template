@@ -9,7 +9,7 @@ import BoneMiner from './src/scripts/lib/game.js';
 
 // Constants
 const SECTION_COLOR_DICT = new Map([
-    ["home", 300],
+    ["main", 300],
     ["guide", 120],
     ["docs-structure", 240],
     ["docs-features", 0],
@@ -18,7 +18,7 @@ const SECTION_COLOR_DICT = new Map([
 
 const DEFAULT_CRUNCH_SIZE = 800;
 
-const DEFAULT_SECTION = 'home';
+const DEFAULT_SECTION = 'main';
 
 // Main HTML functions
 
