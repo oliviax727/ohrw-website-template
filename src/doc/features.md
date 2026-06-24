@@ -52,8 +52,7 @@ To allow users to navigate using the ribbon/menu, you must add an extra HTML `<a
 
 ### Styling
 
-- Section colours
-- Basic Style info
+Defined in the document root in `style.css`, there are a series of standard colour values that are set to change with each section, according to the `SECTION_COLOR_DICT` constant in `index.js`
 
 ### Content
 

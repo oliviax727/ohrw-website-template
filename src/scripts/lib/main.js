@@ -132,7 +132,13 @@ export class Navigator {
 
     // Update ribbon/menu background colors
     static updateBackgroundColors(section) {
-        document.documentElement.style.setProperty('--base-hue', self.PageData.SECTION_COLOR_DICT.get(section));
+        const hue = self.PageData.SECTION_COLOR_DICT.get(section);
+
+        if (hue == undefined) {
+            hue = 300;
+        }
+
+        document.documentElement.style.setProperty('--base-hue', hue);
     }
 
     // Change all age values in spans
