@@ -1,3 +1,0 @@
-## Beginner's Guide
-
-### E

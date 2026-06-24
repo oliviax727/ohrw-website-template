@@ -10,7 +10,7 @@ import BoneMiner from './src/scripts/lib/game.js';
 // Constants
 const SECTION_COLOR_DICT = new Map([
     ["main", 300],
-    ["guide", 120],
+    ["links", 120],
     ["docs-structure", 240],
     ["docs-features", 0],
     ["docs-development", 50],

@@ -32,7 +32,7 @@ This repository's documentation can be found in the markdown files in the [docs]
 Each section describes a different aspect of the codebase:
 | Full Name | Name | Markdown Ref. | Website URL |
 |--|--|--|--|
-| Beginner's Guide | Guide | [src/doc/guide.md](src/doc/guide.md) | [https://oliviax727.github.io/ohrw-website-template/?s=guide](https://oliviax727.github.io/ohrw-website-template/?s=guide)
+| Reference Links | Links | [src/doc/links.md](src/doc/links.md) | [https://oliviax727.github.io/ohrw-website-template/?s=links](https://oliviax727.github.io/ohrw-website-template/?s=links)
 | Project Structure | Structure | [src/doc/structure.md](src/doc/structure.md) | [https://oliviax727.github.io/ohrw-website-template/?s=documentation-structure](https://oliviax727.github.io/ohrw-website-template/?s=documentation-structure)
 | UI Features | Features | [src/doc/features.md](src/doc/features.md) | [https://oliviax727.github.io/ohrw-website-template/?s=documentation-features](https://oliviax727.github.io/ohrw-website-template/?s=gdocumentation-features)
 | Code Development | Development | [src/doc/development.md](src/doc/development.md) | [https://oliviax727.github.io/ohrw-website-template/?s=documentation-development](https://oliviax727.github.io/ohrw-website-template/?s=documentation-development)
