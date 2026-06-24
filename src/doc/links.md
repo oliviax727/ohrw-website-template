@@ -27,6 +27,7 @@ This is a list of links to further documentation on how to best use this reposit
 - RSS W3S
 - Browserify
 - Babelify
+- Flaticon
 
 ### More Documentation/Websites From Me
 
@@ -35,4 +36,11 @@ This is a list of links to further documentation on how to best use this reposit
 - main readme
 - RSS readme
 - Bash RC
-- 
+- My github
+
+### Inspirations/Cool Sites
+
+- Paperclip game
+- CHFederath
+- FP youtube video
+- Tantacrul
