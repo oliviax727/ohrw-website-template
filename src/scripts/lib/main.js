@@ -170,7 +170,7 @@ export class Navigator {
         for (let i = 0; i < datespans.length; i++) {
             var span = datespans[i];
 
-            span.innerHTML = self.PageData.CURRENT_DATE.toDateString('en-AU');
+            span.innerHTML = self.PageData.CURRENT_DATE.toDateString();
         }
     }
 }
