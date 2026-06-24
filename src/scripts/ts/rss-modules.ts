@@ -1,3 +1,5 @@
+// WARNING!!! THIS TYPESCRIPT FILE IS INCOMPLETE! Please see https://oliviax.github.io/RSS-ohrw for updates on progress
+
 /// <reference types="node" />
 
 import Parser from "rss-parser";

@@ -1,3 +1,5 @@
+// WARNING!!! THIS TYPESCRIPT FILE IS INCOMPLETE! Please see https://oliviax.github.io/RSS-ohrw for updates on progress
+
 import { Helpers } from "./helpers.js";
 import { Navigator, Cruncher } from "./main.js";
 
