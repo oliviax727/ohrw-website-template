@@ -12,6 +12,7 @@ function _interopRequireWildcard(e, t) { if ("function" == typeof WeakMap) var r
 // ===== TYPE EXPORTS ===== //
 const HTTPS404 = exports.HTTPS404 = "https://oliviax727.github.io/404";
 const _id = error => error;
+// eslint-disable-next-line functional/functional-parameters
 exports._id = _id;
 const _stub = () => TE.left(new Error("Unknown Error"));
 exports._stub = _stub;

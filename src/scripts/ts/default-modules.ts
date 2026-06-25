@@ -11,8 +11,11 @@ export const HTTPS404 = "https://oliviax727.github.io/404";
 
 export type EntryFunction = () => Promise<void> | void;
 
+export type OutputFunction = () => Promise<string> | string;
+
 export const _id = <A>(error: A): A => error;
 
+// eslint-disable-next-line functional/functional-parameters
 export const _stub = (): TaskEither<Error, never> => TE.left(new Error("Unknown Error"));
 
 export const decideUnsafe = <Err, A>(taskEither: TaskEither<Err, A>): Promise<A> =>

@@ -1,7 +1,7 @@
 
 ## Code Development
 
-This section is a work in progress.
+This section covers the aspects of the project that involve implementing additional functionality to the website template via code. On a bra
 
 ### Frontend Modules
 
