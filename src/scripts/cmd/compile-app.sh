@@ -1,3 +1,4 @@
+# Compile typescript modules and entry files into a single browser-friendly bundle
 (
     # Remove contents of app and types
     rm -rf ./src/scripts/app/* ./src/scripts/types/*
