@@ -24,7 +24,6 @@
 		"browserify": "^17.0.1",
 		"eslint": "^10.5.0",
 		"eslint-plugin-functional": "^10.0.0",
-		"esmify": "^0.1.2",
 		"fp-ts": "^2.16.11",
 		"globals": "^17.7.0",
 		"jiti": "^2.7.0",
