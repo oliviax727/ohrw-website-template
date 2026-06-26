@@ -1,7 +1,9 @@
 
 ## Code Development
 
-This section covers the aspects of the project that involve implementing additional functionality to the website template via code.
+This section covers the aspects of the project that involve implementing additional functionality to the website template via code. Below is a flowchart diagram displaying the entire development, structure, and call sequence of the template repository:
+
+![Flowchart](../img/assets/development_structure_flowchart.png)
 
 ### Frontend Modules
 
