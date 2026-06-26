@@ -55,23 +55,20 @@ Defined in the document root in `style.css`, there are a series of standard colo
 
 <table style="empty-cells: hide;">
     <tr>
-        <th></th>
-        <th></th>
+        <th colspan="2" rowspan="2" style="text-align: center">HSL(300, %S, %B)</th>
         <th colspan="3" style="text-align: center">Brightness</th>
     </tr>
     <tr>
-        <th></th>
-        <th>(%S, %B)</th>
         <th>Dark</th>
+        <th>Mid</th>
         <th>Light</th>
-        <th>Wash</th>
     </tr>
     <tr>
-        <th rowspan="3">Saturation</th>
-        <th>Pale</th>
-        <td style="background-color: hsl(300, 25%, 25%)">(25, 25)</td>
-        <td style="background-color: hsl(300, 25%, 50%)">(25, 50)</td>
-        <td style="background-color: hsl(300, 25%, 75%)">(25, 75)</td>
+        <th rowspan="4">Saturation</th>
+        <th>Vibrant</th>
+        <td style="background-color: hsl(300, 100%, 25%)">(100, 25)</td>
+        <td style="background-color: hsl(300, 100%, 50%)">(100, 50)</td>
+        <td style="background-color: hsl(300, 100%, 75%)">(100, 75)</td>
     </tr>
     <tr>
         <th>Mid</th>
@@ -80,24 +77,22 @@ Defined in the document root in `style.css`, there are a series of standard colo
         <td style="background-color: hsl(300, 50%, 75%)">(50, 75)</td>
     </tr>
     <tr>
-        <th>Vibrant</th>
-        <td style="background-color: hsl(300, 100%, 25%)">(100, 25)</td>
-        <td style="background-color: hsl(300, 100%, 50%)">(100, 50)</td>
-        <td style="background-color: hsl(300, 100%, 75%)">(100, 75)</td>
+        <th>Pale</th>
+        <td style="background-color: hsl(300, 25%, 25%)">(25, 25)</td>
+        <td style="background-color: hsl(300, 25%, 50%)">(25, 50)</td>
+        <td style="background-color: hsl(300, 25%, 75%)">(25, 75)</td>
+    </tr>
+    <tr>
+        <th>Greyscale</th>
+        <td style="background-color: #333">(0, 20)</td>
+        <td style="background-color: #666">(0, 40)</td>
+        <td style="background-color: #999">(0, 60)</td>
     </tr>
 </table>
 
-The CSS also contains three other colour variables, including the `--base-hue` variable:
+Each variable is named according to the structure: `--<saturation name>-<brightness Name>-color`, where all values are in lower case; the greyscale values take the form: `--<brightness name>-gray`.
 
-```css
-/* Base Colour */
---base-hue; /* A number from 0-360, set by the SECTION_COLOR_DICT constant */
-
-/* Greyscale */
---dark-gray: #444;
---mid-gray: #666;
---light-gray: #ddd;
-```
+The CSS also contains the `--base-hue` variable.
 
 ### Dynamic Span Elements
 
