@@ -3,17 +3,17 @@
 // End-user check JS works
 console.info("This message should appear if the javascript integration has worked.");
 
-import { Helpers, PageData } from './src/scripts/lib/helpers.js';
+import { PageData } from './src/scripts/lib/helpers.js';
 import { Navigator, Cruncher } from './src/scripts/lib/main.js';
 import BoneMiner from './src/scripts/lib/game.js';
 
 // Constants
 const SECTION_COLOR_DICT = new Map([
-    ["main", 300],
-    ["links", 120],
-    ["docs-structure", 240],
-    ["docs-features", 0],
-    ["docs-development", 50],
+	["main", 300],
+	["links", 120],
+	["docs-structure", 240],
+	["docs-features", 0],
+	["docs-development", 50],
 ]);
 
 const DEFAULT_CRUNCH_SIZE = 800;
@@ -32,17 +32,17 @@ window.BoneMiner = BoneMiner;
 // Activate events
 
 window.onload = () => {
-    Navigator.initPage();
+	Navigator.initPage();
 };
 
 document.addEventListener("oncrunch", () => {
-    Cruncher.onCrunch();
-    Cruncher.crunchRibbon();
-    Cruncher.crunchContent();
+	Cruncher.onCrunch();
+	Cruncher.crunchRibbon();
+	Cruncher.crunchContent();
 });
 
 document.addEventListener("onrelax", () => {
-    Cruncher.onRelax();
-    Cruncher.relaxRibbon();
-    Cruncher.relaxContent();
+	Cruncher.onRelax();
+	Cruncher.relaxRibbon();
+	Cruncher.relaxContent();
 });

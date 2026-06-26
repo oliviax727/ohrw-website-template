@@ -9,5 +9,5 @@
     ./node_modules/.bin/babel ./src/scripts/dist --out-dir ./src/scripts/app
 
     # Browserify
-    browserify ./src/scripts/entry.js | terser --compress > ./bundle.js
+    npx browserify ./src/scripts/entry.js -p esmify | npx terser --compress > ./bundle.js
 )

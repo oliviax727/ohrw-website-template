@@ -1,11 +1,11 @@
 
 ## Code Development
 
-This section covers the aspects of the project that involve implementing additional functionality to the website template via code. On a bra
+This section covers the aspects of the project that involve implementing additional functionality to the website template via code.
 
 ### Frontend Modules
 
-- lib file and index.js
+Client-side and/or frontend modules are found in the `src/scripts/lib` directory. All files are written in javascript
 
 ### Backend Structure
 
