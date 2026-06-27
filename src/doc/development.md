@@ -60,8 +60,10 @@ The other two files `propagate-html.sh` and `update-from-upstream.sh` are very s
 
 ### Miscellaneous
 
-- Config.yml
-- Jekyll pages
-- Documents and Images
-- Robots
-- CDNs
+Other configurations to the GitHub pages can be made with the `config.yml`. Jekyll also has other functionality available including a custom RSS/Atom feed that logs repository updates, but it requires ruby.
+
+Feel free to modify `robots.txt`. Currently, it disallows everything except Google and DuckDuckGo search engine web scrapers.
+
+CDNs should be imported from within the `index.html` metadata header. Use CDNs sparingly unless specific HTML functionality is needed. Currently, only `zero-md` and `modern-normalize` are imported for inter-browser consistency and markdown integration.
+
+All other UI assets should be stored in `src/doc` and `src/img`.
