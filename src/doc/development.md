@@ -27,8 +27,8 @@ The `src/scripts/ts` directory is the main container for all backend modules. Th
 
 What this means in more simple terms is the following:
 - No code is executed in any typescript file whatsoever;
-- - typescript files only export the required functionality
-- - Owing to its name `entry.js` is the entry point for all node module/backend execution
+  - typescript files only export the required functionality
+  - Owing to its name `entry.js` is the entry point for all node module/backend execution
 - All typescript files excluding `index.ts` contain exports that are as functionally pure and type-safe as possible
 - All interaction with HTML elements/Browser-related types are handled in `entry.js`
 
@@ -46,7 +46,7 @@ If desired, different ESLint modules can be imported and used, however I do reco
 - Maintaining a separation between browser-only modules (always written in javascript) and node-only modules (always written in Typescript)
 - Using ESLint's type checking and javascript integration
 - Keeping the `@html-eslint/eslint-plugin` for javascript client-side modules
-- Keeping `eslint-plugin-functional` for typescript node modules, to encourage functional programming
+- Keeping `eslint-plugin-functional` for typescript node modules, to encourage functional programming (see the 'links' [markdown](./links.md#functional-programming)/[html](https://oliviax727.github.io/ohrw-website-template/?s=links) for more help on how and why to program functional)
 
 I have not integrated JSDoc/TSDoc into this project because I personally don't want to figure out how to implement it. But if you want to contribute to this repository and make it work, then let me know. Otherwise, implement at your own choice.
 
@@ -62,7 +62,7 @@ The other two files `propagate-html.sh` and `update-from-upstream.sh` are very s
 
 Other configurations to the GitHub pages can be made with the `config.yml`. Jekyll also has other functionality available including a custom RSS/Atom feed that logs repository updates, but it requires ruby.
 
-Feel free to modify `robots.txt`. Currently, it disallows everything except Google and DuckDuckGo search engine web scrapers.
+Feel free to modify `robots.txt`. Currently, it allows everything except AI scrapers.
 
 CDNs should be imported from within the `index.html` metadata header. Use CDNs sparingly unless specific HTML functionality is needed. Currently, only `zero-md` and `modern-normalize` are imported for inter-browser consistency and markdown integration.
 

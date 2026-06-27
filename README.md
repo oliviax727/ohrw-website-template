@@ -39,7 +39,7 @@ Each section describes a different aspect of the codebase:
 
 ### Attributions
 
-All icons created by Google, hosted by Flaticon, modified from black to white. See list of Flaticon sets:
+All icons created by Google, from the [Google Material Design Monochrome](https://www.flaticon.com/authors/google-material-design/monochrome) icon pack, hosted by Flaticon, modified from black to white. See list of Flaticon attributions:
 
 - [Menu Icons](https://www.flaticon.com/free-icons/menu)
 - [Fullscreen Icons](https://www.flaticon.com/free-icons/fullscreen)
