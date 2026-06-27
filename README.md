@@ -10,7 +10,7 @@ After forking the repository, go to **Settings** > **Code and Automation** > **P
 
 ![Settings image](./src/img/assets/github_pages_setup.png)
 
-Under “Build and Deployment” select “Deploy From Branch” and under “Branch” select the `main` branch. Then, press the save button. Give GitHub a few minutes to deploy, and then access the website via https://[your username].github.io/[your repository name]/ or https://[your username].github.io if the repository is called “[your username].github.io”.
+Under “Build and Deployment” select “Deploy From Branch” and under “Branch” select the `main` branch. Then, press the save button. Give GitHub a few minutes to deploy, and then access the website via `https://[your username].github.io/[your repository name]/` or `https://[your username].github.io` if the repository is called `[your username].github.io`.
 
 Next, clone your new repository on your local device, and in the terminal, `cd` into the repository and run:
 
