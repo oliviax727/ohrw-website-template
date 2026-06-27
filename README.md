@@ -54,3 +54,10 @@ All icons created by Google, from the [Google Material Design Monochrome](https:
 I am fundamentally opposed to copyright and any restriction on the free exchange of information and ideas. Unfortunately we do not live in a world where we can make everything public domain.
 
 This repository has a licence for the pure assurance that any derivative work cannot be made private. It also means I can enforce anti-AI and anti-commercial uses of my project. Additionally, I want to protect any artists (including myself) from having their IP stolen — not because I don't think what they produce shouldn't be used in the reciprocal creativity of art — but to make sure they get their fair share in an economic system that is “Publish or Perish”, for all creatives and scientists.
+
+### Work in Progress
+
+The following parts are WIPs:
+- RSS feed generation
+- Including JSDoc into all parts of the project
+- A better pull-from-upstream command
