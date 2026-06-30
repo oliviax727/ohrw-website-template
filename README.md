@@ -58,6 +58,5 @@ This repository has a licence for the pure assurance that any derivative work ca
 ### Work in Progress
 
 The following parts are WIPs:
-- RSS feed generation
 - Including JSDoc into all parts of the project
 - A better pull-from-upstream command
