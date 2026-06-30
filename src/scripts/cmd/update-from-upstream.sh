@@ -6,7 +6,7 @@
     # Update files from upstream - favicons, icons, npm packages, script files, css
     git checkout upstream/main -- \
     src/img/favicons src/img/icons \
-    package.json package-lock.json eslint.config.ts .prettierrc.json \
+    package.json package-lock.json eslint.config.ts .prettierrc.json sitemap.xml \
     style.css 404.html .gitignore babel.config.json LICENSE robots.txt tsconfig.json \
     src/scripts \
     src/css \
