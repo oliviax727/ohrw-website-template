@@ -1,4 +1,4 @@
-## Project Structure
+# Project Structure
 
 For the directories and files listed in code blocks below:
 | Symbol | Reccomended Treatment (Directories) | Reccomended Treatment  (Files) |
@@ -9,7 +9,7 @@ For the directories and files listed in code blocks below:
 | 🟠 | Avoid modifying or adding to unless neccesary| " |
 | 🔴 | Avoid modification or addition whatsoever | " |
 
-### Directories
+## Directories
 
 The directory structure looks given as below — in brackets next to each directory is an explanation of what that directory is for.
 
@@ -33,7 +33,7 @@ The directory structure looks given as below — in brackets next to each direct
         └── types (Typescript type declarations) 🔴
 ```
 
-### Files
+## Files
 
 Below is the list of top-level files — in brackets next to each file is an explanation of what that file is for.
 

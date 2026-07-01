@@ -1,11 +1,11 @@
 
-## Code Development
+# Code Development
 
 This section covers the aspects of the project that involve implementing additional functionality to the website template via code. Below is a flowchart diagram displaying the entire development, structure, and call sequence of the template repository:
 
 ![Flowchart](../img/assets/development_structure_flowchart.png)
 
-### Frontend Modules
+## Frontend Modules
 
 Client-side and/or frontend modules are found in the `src/scripts/lib` directory. All files are written in javascript with ESLint configured to recognise it as an HTML-integrated script with browser global typing.
 
@@ -21,7 +21,7 @@ window.MyClass = MyClass;
 window.onload = myFunction();
 ```
 
-### Backend Structure
+## Backend Structure
 
 The `src/scripts/ts` directory is the main container for all backend modules. The typescript modules (non-strictly written as `<module name>-module[s].ts`) are written in a functional and type-safe manner. These typescript modules are collectively imported together into a single `index.ts`, which defines any IO-style functionality including catching any errors, logging any outputs, and using the modules to execute website functionality. From this, `entry.js` imports from `index.ts` and executes the required functionality, marrying the backend node components with the frontend web components.
 
@@ -36,7 +36,7 @@ This template repository is also set up to add additional directories within `sr
 
 Once a section of the code has been implemented, or is ready to compile, run the command `./src/scripts/cmd/compile-app.sh` in a shell terminal to bundle all node-reliant code into a browser-friendly `bundle.js` file that the website itself can use.
 
-### Configuring the Backend
+## Configuring the Backend
 
 NPM packages can be installed from the default configuration using `npm i`. If additional packages are needed simply install `npm i -D <module>` for developer-only packages and `npm i <module>` for code-necessary packages. Always import modules using ESNext syntax instead of CommonJS.
 
@@ -50,7 +50,7 @@ If desired, different ESLint modules can be imported and used, however I do reco
 
 I have not integrated JSDoc/TSDoc into this project because I personally don't want to figure out how to implement it. But if you want to contribute to this repository and make it work, then let me know. Otherwise, implement at your own choice.
 
-### Command-Line Interface
+## Command-Line Interface
 
 Within the `src/scripts/cmd` directory you can find bash scripts for automating parts of the development process. The most important script is `compile-app.sh`, which will automatically convert node modules into a resulting bundled and browser-friendly javascript file.
 
@@ -58,7 +58,7 @@ The other two files `propagate-html.sh` and `update-from-upstream.sh` are very s
 - The first will simply take the data in `src/layouts/content-template.html` and copy it over into each HTML file in `src/html` excluding the designated homepage. This has limited usefulness in the early stages of development so that it prevents repeated copying-and-pasting
 - The second will forcefully overwrite any changes by pulling from the existing state in the upstream directory. This is used in my case to maintain consistency between this template repository and my two website repositories. But it probably should be modified to not overwrite new changes.
 
-### Miscellaneous
+## Miscellaneous
 
 Other configurations to the GitHub pages can be made with the `config.yml`. Jekyll also has other functionality available including a custom RSS/Atom feed that logs repository updates, but it requires ruby.
 

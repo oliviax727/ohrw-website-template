@@ -1,13 +1,13 @@
-## Reference Links and Notes
+# Reference Links and Notes
 
 This is a list of links to further documentation on how to best use this repository.
 
-### Web Development
+## Web Development
 
 [**Mozilla Javascript Documentation**](https://developer.mozilla.org) — An excellent place to find directed HTML, JS, and CSS documentation.
 [**W3 Schools**](https://www.w3schools.com) – Tutorials and documentation on basically anything involving the web.
 
-### Node and Typescript
+## Node and Typescript
 
 Note that “ECMAScript” refers to the language standard that defines the rules of javascript and its derivatives. It was made in order to standardise javascript integration internet-wide, even for web applications that have different language requirements to traditional javascript. Other notable ECMAScript derivatives include: Office Scripts, Google Scripts, CoffeeScript, ActionScript, etc.
 
@@ -16,9 +16,9 @@ Note that “ECMAScript” refers to the language standard that defines the rule
 [**Typescript**](https://www.typescriptlang.org) – A superset language of javascript, made by Microsoft (unfortunately), that incorporates typing into javascript for safer development and runtime execution.
 [**ESLint**](https://eslint.org) – A ECMAScript linting tool that helps you write better code, catching errors and problems that you otherwise might not see.
 
-### Functional Programming
+## Functional Programming
 
-#### What
+### What
 
 [Functional programming](https://en.wikipedia.org/wiki/Functional_programming) is a [declarative programming](https://en.wikipedia.org/wiki/Declarative_programming) paradigm that treats functions as the fundamental building block of code. Similar to how Object-Oriented programming treats everything as an object, functional programming treats everything like a function.
 
@@ -63,7 +63,7 @@ What Haskell *is* good at, is teaching concepts in functional programming, as a 
 
 Typescript is better at doing FP because it has a more robust typing system, is faster, is cleaner, has more support/documentation, and is more versatile.
 
-#### Why
+### Why
 
 So [why functional programming](https://github.com/readme/guides/functional-programming-basics)? It's mainly in the [extra features](https://www.geeksforgeeks.org/blogs/functional-programming-paradigm) I glossed over in the simple explainer above.
 
@@ -90,7 +90,7 @@ There are obvious disadvantages. But generally speaking, this is why it's so use
 
 Here's an [IEEE](https://spectrum.ieee.org/functional-programming) article on it too.
 
-#### How
+### How
 
 In typescript, functional programming is rather simple. After all, [typescript is designed with support for functional programming (most especially, currying) in mind](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes-func.html).
 
@@ -98,7 +98,7 @@ For ESLint, there is a plugin that helps enforce functional rules called [`eslin
 
 [`fp-ts`](https://gcanti.github.io/fp-ts/) is a helpful library for all things functional. It provides functionality for various aspects of functional programming to make writing code easier and safer. `fp-ts` already assumes you know how to use functional programming, though, in my experience, what's more important is that you understand how [generic typing](https://www.typescriptlang.org/docs/handbook/2/generics.html) and [collections](https://www.xjavascript.com/blog/typescript-collection-types) work in typescript. For the functional side of things, `fp-ts` has some [learning resources](https://gcanti.github.io/fp-ts/learning-resources/) that I recommend you check out.
 
-### Smaller Bits
+## Smaller Bits
 
 Here's a list of some extra links that are worth looking into:
 - HTML markdown embedding with [Zero-MD](https://zerodevx.github.io/zero-md).
@@ -108,7 +108,7 @@ Here's a list of some extra links that are worth looking into:
 - Translating ESNext imports into CommonJS via [Babelify](https://github.com/babel/babelify).
 - Adding consistent and clean icon sets with [Flaticon](https://www.flaticon.com) – this repository uses exclusively the [Google Icon Pack](https://www.flaticon.com/authors/google-material-design/monochrome).
 
-### More Documentation/Websites From Me
+## More Documentation/Websites From Me
 
 Here are some of my personal projects and websites that I think you should take a look at, especially if you want an example of how to use this repository to its fullest extent, see my:
 - [Homepage](https://oliviax727.github.io) and its [README](https://github.com/oliviax727/oliviax727.github.io?tab=readme-ov-file)
@@ -116,7 +116,7 @@ Here are some of my personal projects and websites that I think you should take 
 - [Custom Bash-RC Shell Project](https://github.com/oliviax727/bash-rc)
 - [GitHub Profile](https://github.com/oliviax727)
 
-### Inspirations/Cool Sites
+## Inspirations/Cool Sites
 
 Here are some cool websites, channels, and media that inspired my work:
 - [My First Webpage](https://github.com/oliviax727/Trade-Wars) – the origin of a lot of my web programming know-how, as well as the start of my career in programming.
