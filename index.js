@@ -5,19 +5,21 @@ console.info(
 	"This message should appear if the javascript integration has worked.",
 );
 
+import { ModifyFeed, ReaderState } from "./src/scripts/lib/rss.js";
 import { PageData, Storer } from "./src/scripts/lib/helpers.js";
 import { Navigator, Cruncher } from "./src/scripts/lib/main.js";
 import BoneMiner from "./src/scripts/lib/game.js";
-import { ReaderState, ModifyFeed } from "./src/scripts/lib/rss.js";
-import { DynamicLoader } from "./src/scripts/lib/load.js";
+import DynamicLoader from "./src/scripts/lib/load.js";
 
 // Constants
 const SECTION_COLOR_DICT = new Map([
-	["main", 300],
-	["links", 120],
-	["docs-structure", 240],
-	["docs-features", 0],
-	["docs-development", 50],
+	["home", 300],
+	["about-professional", 250],
+	["about-personal", 120],
+	["about-political", 0],
+	["works", 45],
+	["curriculum_vitae", 25],
+	["links", 240],
 ]);
 
 const DEFAULT_CRUNCH_SIZE = 800;
